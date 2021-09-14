@@ -1,0 +1,52 @@
+html, body{
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+canvas {
+    display: block; /* Remove space at bottom of canvas. */
+}
+
+#menu{    
+    position: absolute;
+    top: 1%;
+}
+
+#logo
+{
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    width: 15%;
+    
+
+}
+
+#logo img{
+    width: 100%;
+    max-width: 100px ;
+    float:right;
+}
+
+button{
+    background-color: #FCFCFD;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    color: #36395A;
+    cursor: pointer;
+    display: block;
+    font-family: "JetBrains Mono",monospace;
+    height: 3em;
+    margin: 1em;
+    width: 5em;
+    border-radius: 8px;
+}
+
+button:active {
+    box-shadow: 0 5px rgb(134, 134, 134);
+    transform: translateY(2px);
+  }
+

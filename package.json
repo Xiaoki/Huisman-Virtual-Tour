@@ -1,0 +1,23 @@
+{
+  "name": "floorplan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack",
+    "start": "webpack serve --open"
+  },
+  "keywords": [],
+  "author": "Frank Bloemendal",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  },
+  "dependencies": {
+    "three": "^0.132.2"
+  }
+}
